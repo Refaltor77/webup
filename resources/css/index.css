@@ -2,30 +2,80 @@
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    text-align: center;
-    color: white;
+    list-style: none;
+    text-decoration: none;
 }
 
-body {
-    overflow: hidden;
+body header {
     display: flex;
-    justify-content: center;
-    justify-items: center;
-    padding: 20%;
-    background: deepskyblue;
+    justify-content: space-between;
+    padding: 2%;
+    box-shadow: black 0 1px 10px 0;
+}
+body header h1::after {
+    content: "By Refaltor";
+    display: block;
+    font-size: 15px;
+    letter-spacing: 6px;
+}
+body header nav {
+    margin-top: 0.89%;
+}
+body header nav ul {
+    display: flex;
+}
+body header nav ul li {
+    margin-right: 3rem;
+}
+body header nav ul li a {
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+body main {
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
 }
 body article {
-    background: #303030;
+    background: lightgray;
+    padding: 2%;
+    border-radius: 12px;
+    box-shadow: 0px 0 14px 0px;
+}
+body main h1 {
+    letter-spacing: 1px;
+    font-size: 85px;
+}
+body main h1::after {
+    content: "V1.0.0-alpha 💥";
+    color: #000000;
+    display: block;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    text-align: start;
+    margin-bottom: 2%;
+}
+body main h3 {
+    font-size: 45px;
+    margin-bottom: 12%;
+}
+body main h3::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 50%;
+    background: orange;
+}
+body main p {
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+body main img {
+    height: 30%;
+    width: 44%;
     border-radius: 21px;
-    padding: 3%;
-}
-body article h1 {
-    font-weight: bolder;
-    letter-spacing: 1px;
-    font-size: 30px;
-}
-body article h3 strong {
-    font-weight: bolder;
-    letter-spacing: 1px;
-    color: deepskyblue;
 }

@@ -8,11 +8,27 @@
     <title>Document</title>
 </head>
 <body>
-    <article>
-        <h1>Bienvenue sur Webup !</h1>
-        <h2>By Refaltor.</h2>
-        <h3>Version <strong>1.0.0-ALPHA</strong></h3>
-        <p>Webup est un nouveau framework web fullstack qui va droit au but ! Performant et facile à prendre en main.</p>
-    </article>
+    <header>
+        <h1>Webup 🌎</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">Github</a></li>
+                <li><a href="#">Dons</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1>Webup ! ⚡</h1>
+            <h3>Powerfull fullstack framework</h3>
+            <p>Webup est un nouveau framework web</p>
+            <p>pour les développeur fullstack !</p>
+            <p>Il possède beaucoup de possibilité</p>
+            <p>mais son but premier est d'allez droit dedans !</p>
+        </article>
+        <img alt="code" src="../storage/public/img/code.png">
+    </main>
 </body>
 </html>

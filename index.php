@@ -8,6 +8,8 @@ include __DIR__ . '/src/webup/app/route/Route.php';
 use Pecee\SimpleRouter\SimpleRouter;
 use webup\app\Main;
 
+if (strstr('salut', 'salutzz')) var_dump('oui');
+
 spl_autoload_register(function (string $classname): void {
     $explode = explode('\\', $classname);
     if ($explode[0] === 'webup') {
@@ -16,6 +18,8 @@ spl_autoload_register(function (string $classname): void {
     }
 });
 
+
 $main = new Main();
 $main->startingWebsite();
+
 SimpleRouter::start();
