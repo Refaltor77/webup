@@ -1,0 +1,17 @@
+{
+    "name": "refaltor/goldrush",
+    "autoload": {
+        "psr-4": {
+            "Refaltor\\Goldrush\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Refaltor77",
+            "email": "elysiomartinspro@gmail.com"
+        }
+    ],
+    "require": {
+        "pecee/simple-router": "4.3.7.2"
+    }
+}
